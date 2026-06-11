@@ -1,0 +1,7 @@
+﻿* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: sans-serif; background: #f4f4f4; padding: 20px; }
+header { background: #0654ba; color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; border-radius: 5px; margin-bottom: 20px; }
+.product-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+.product-card { background: white; padding: 15px; border-radius: 5px; text-align: center; border: 1px solid #ddd; }
+img { width: 100px; height: 100px; object-fit: contain; }
+button { cursor: pointer; padding: 8px; background: #ff9900; border: none; }
